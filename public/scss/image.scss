@@ -1,0 +1,122 @@
+.image {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	&.image-25px {
+		width: 25px;
+		height: 25px;
+	}
+	&.image-30px {
+		width: 30px;
+		height: 30px;
+	}
+	&.image-35px {
+		width: 35px;
+		height: 35px;
+	}
+	&.image-40px {
+		width: 40px;
+		height: 40px;
+	}
+	&.image-45px {
+		width: 45px;
+		height: 45px;
+	}
+	&.image-50px {
+		width: 50px;
+		height: 50px;
+	}
+	&.image-100px {
+		width: 100px;
+		height: 100px;
+	}
+	&.image-110px {
+		width: 110px;
+		height: 110px;
+	}
+	&.image-120px {
+		width: 120px;
+		height: 120px;
+	}
+	&.image-130px {
+		width: 130px;
+		height: 130px;
+	}
+	&.image-140px {
+		width: 140px;
+		height: 140px;
+	}
+	&.image-150px {
+		width: 150px;
+		height: 150px;
+	}
+	&.image-200px {
+		width: 200px;
+		height: 200px;
+	}
+	&.image-250px {
+		width: 250px;
+		height: 250px;
+	}
+	&.image-300px {
+		width: 300px;
+		height: 300px;
+	}
+	&.image-350px {
+		width: 350px;
+		height: 350px;
+	}
+	&.image-400px {
+		width: 400px;
+		height: 400px;
+	}
+	&.image-full {
+		width: 100%;
+		padding-bottom: 50%;
+	}
+	&.image-all {
+		width: 100%;
+		padding-bottom: 100%;
+	}
+	&.image-radius {
+		border-radius: 5px;
+	}
+	&.image-circle {
+		border-radius: 100%;
+	}
+	&.image-height {
+		background-size: auto 120%;
+	}
+	&.image-center {
+		margin: auto;
+	}
+	&.image-radius {
+		border-radius: 12px;
+		overflow: hidden;
+	}
+	&.image-hover {
+		background-size: 100%;
+		transition: background-size 0.8s ease-in;
+		-moz-transition: background-size 0.8s ease-in;
+		-web-kit-transition: background-size 0.8s ease-in;
+		&:hover {
+			background-size: 120%;
+		}
+	}
+	.img-caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: calc(100% - 30px);
+		padding: 15px;
+		background-color: rgba($color: #000000, $alpha: 0.4);
+	}
+	.icn {
+		@include post_center(absolute);
+		color: $txt-54-color;
+		.icn-big {
+			font-size: 34px;
+		}
+	}
+}

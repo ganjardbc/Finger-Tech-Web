@@ -1,0 +1,130 @@
+@import "color";
+@import "asset";
+@import "font";
+@import "column";
+@import "header";
+@import "body";
+@import "footer";
+@import "card";
+@import "form";
+@import "image";
+@import "article";
+@import "navigator";
+@import "position";
+@import "display";
+@import "width";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    white-space: normal;
+}
+
+html {
+	font-family: "PrimaryFont", Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+#app {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	.sidebar {
+		position: relative;
+		width: 350px;
+		.fixed {
+			position: fixed;
+			width: 220px;
+			height: calc(100vh - 80px);
+			padding: 40px 60px;
+		}
+	}
+	.main-content {
+		position: relative;
+		width: calc(100% - 410px);
+		padding-top: 40px;
+		padding-right: 60px;
+		padding-bottom: 40px;
+		background-color: #fff;
+	}
+}
+
+.main-container {
+	position: relative;
+	width: $col-full;
+	margin: auto;
+	padding: 50px 0;
+	@media (max-width: $max-width) {
+		width: 100%;
+	}
+}
+.main-container-full {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	padding: 50px 0;
+	@media (max-width: $max-width) {
+		width: 100%;
+	}
+}
+.main-container-medium {
+	position: relative;
+	width: $col-medium;
+	margin: auto;
+	padding: 50px 0;
+	@media (max-width: $max-width) {
+		width: 100%;
+	}
+}
+.main-container-small {
+	position: relative;
+	width: $min-width;
+	margin: auto;
+	padding: 50px 0;
+	@media (max-width: $max-width) {
+		width: 100%;
+	}
+}
+
+.bdr {
+    position: relative;
+    width: 80px;
+    margin: auto;
+    margin-top: 15px;
+    border-bottom: 4px $black solid;
+    &.left {
+        margin: 0;
+        margin-top: 15px;
+    }
+    &.right {
+    	text-align: right;
+        margin-top: 15px;
+    }
+    &.no-margin {
+    	margin: 0 0;
+    }
+}
+
+.mobile {
+	@media (max-width: $max-width) {
+		display: none;
+	}
+}
+.desktop {
+	display: none;
+	@media (max-width: $max-width) {
+		display: block;
+	}
+}
+
+.bdr-bottom {
+	border-bottom: 1px rgba(0,0,0,0.1) solid;
+}

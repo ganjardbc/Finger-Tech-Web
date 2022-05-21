@@ -1,0 +1,139 @@
+.footer {
+	position: relative;
+    width: 100%;
+    @media (max-width: $max-width) {
+        text-align: center;
+        .footer-menu {
+            margin-bottom: 30px;
+        }
+    }
+    &.split-2 {
+        padding: 40px 0;
+        @include col_masonry(2);
+        @media (max-width: $max-width) {
+            @include col_masonry(1);
+        }
+    }
+    &.split-3 {
+        padding: 40px 0;
+        @include col_masonry(3);
+        @media (max-width: $max-width) {
+            @include col_masonry(1);
+        }
+    }
+    &.split-4 {
+        padding: 40px 0;
+        @include col_masonry(4);
+        @media (max-width: $max-width) {
+            @include col_masonry(1);
+        }
+    }
+    .place {
+        position: relative;
+        display: flex;
+        width: 100%;
+        @media (max-width: $max-width) {
+            display: block;
+        }
+        .col {
+            position: relative;
+            width: 100%;
+        }
+        .title {
+            margin-bottom: 10px;
+            .logo {
+                width: 320px;
+                @media (max-width: $max-width) {
+                    width: 250px;
+                }
+            }
+        }
+        
+        .info {
+            h3 {
+                line-height: 1.5;
+                color: $black;
+                font-size: 16px;
+            }
+            p {
+                line-height: 1.5;
+                color: $black;
+                font-size: 14px;
+            }
+        }
+        
+    }
+    .map {
+        position: relative;
+        width: 320px;
+        background-color: #f0f0f0;
+        text-align: center;
+        margin: auto;
+        @media (max-width: $max-width) {
+            width: 100%;
+        }
+    }
+    .pl-logo {
+        position: relative;
+        width: 100%;
+        .logo {
+            width: 230px;
+        }
+    }
+    .copy {
+        position: relative;
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+        color: #fff;
+        font-size: 11pt;
+        font-family: "PrimaryFont", Arial, Helvetica, sans-serif;
+    }
+}
+
+.footer-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    li {
+        position: relative;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 12pt;
+        color: $black;
+        list-style: none;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "SekunderFont", Arial, Helvetica, sans-serif;
+        a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 12pt;
+            color: $black;
+            &:hover {
+                .ttl {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .icn {
+            position: relative;
+            width: 30px;
+        }
+        .ttl {
+            position: relative;
+            width: calc(100% - 30px);
+            white-space: normal;
+        }
+        @media (max-width: $max-width) {
+            justify-content: center;
+            text-align: center;
+            .ttl {
+                width: auto;
+            }
+        }
+    }
+}

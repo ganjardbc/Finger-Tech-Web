@@ -1,0 +1,110 @@
+.pl-article {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 0 0;
+    /*@include grid_2x(1fr, 450px);
+    @media (max-width: $max-width) {
+        @include grid_none();
+        width: calc(100% - 30px);
+        padding: 0 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }*/
+    @media (max-width: $max-width) {
+        width: calc(100% - 20px);
+    }
+    .pl-a-col-1 {
+        @include grid_col(1);
+    }
+    .pl-a-col-2 {
+        @include grid_col(2);
+    }
+    .more-article {
+        position: relative;
+        width: 100%;
+        .top {
+            padding: 10px 0;
+            h3 {
+                font-weight: 500;
+                color: $txt-84-color;
+            }
+        }
+    }
+}
+
+.frm-story {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    @media (max-width: $max-width) {
+        width: 100%;
+    }
+    .top {
+        padding-bottom: 15px;
+    }
+    .cvr {
+        position: relative;
+        width: 50%;
+        .main-cvr {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 37%;
+            height: 100vh;
+            background-color: #999;
+            background-size: cover;
+            background-position: center;
+	        background-repeat: no-repeat;
+            border-bottom-left-radius: 50px;
+            box-shadow: $shadow-bold;
+        }
+    }
+    .mid {
+        position: relative;
+        padding: 50px 0;
+        @include col_set($max-width);
+        .info {
+            color: $grey;
+            font-size: 11pt;
+        }
+        .date {
+            position: relative;
+            width: 100%;
+            color: $black;
+            font-size: 12pt;
+            font-family: "SekunderFont", Arial, Helvetica, sans-serif;
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: flex-start;
+            // align-items: center;
+            .icn {
+                font-size: 11pt;
+                margin-right: 3px;
+            }
+        }
+        .title {
+            h1 {
+                font-weight: 600;
+                line-height: 1.2;
+                font-family: "PrimaryFontBold", Arial, Helvetica, sans-serif;
+            }
+        }
+        .desc {
+            white-space: normal;
+            p {
+                color: $black;
+                font-size: 13pt;
+                line-height: 1.6;
+                word-spacing: 1.2;
+                white-space: normal;
+                font-family: "PrimaryFontRegular", Arial, Helvetica, sans-serif;
+                img {
+                    position: relative;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

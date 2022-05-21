@@ -1,0 +1,151 @@
+.ctn-font {
+	font-family: "PrimaryFont","Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.3;
+	&.ctn-font-main {
+		font-family: "MainFont", Arial, Helvetica, sans-serif;
+	}
+
+	// sekunder
+	&.ctn-font-sekunder {
+		font-family: "SekunderFont", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-sekunder-regular {
+		font-family: "SekunderFontRegular", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-sekunder-bold {
+		font-family: "SekunderFontBold", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-sekunder-semibold {
+		font-family: "SekunderFontSemiBold", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-sekunder-extrabold {
+		font-family: "SekunderFontExtraBold", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-sekunder-light {
+		font-family: "SekunderFontLight", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-sekunder-thin {
+		font-family: "SekunderFontThin", Arial, Helvetica, sans-serif;
+	}
+
+	// primary
+	&.ctn-font-primary {
+		font-family: "PrimaryFont", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-primary-regular {
+		font-family: "PrimaryFontRegular", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-primary-bold {
+		font-family: "PrimaryFontBold", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-primary-semibold {
+		font-family: "PrimaryFontSemiBold", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-primary-extrabold {
+		font-family: "PrimaryFontExtraBold", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-font-primary-light {
+		font-family: "PrimaryFontLight", Arial, Helvetica, sans-serif;
+	}
+	&.ctn-thin {
+		font-weight: 400;
+	}
+	&.ctn-bold {
+		font-weight: 600;
+	}
+	&.ctn-capital {
+		text-transform: capitalize;
+	}
+	&.ctn-big {
+		font-size: 54pt;
+	}
+	&.ctn-standar {
+		font-size: 44pt;
+	}
+	&.ctn-small {
+		font-size: 26pt;
+	}
+	&.ctn-mikro {
+		font-size: 22pt;
+	}
+	@for $var from 0 to 100 {
+        &.ctn-#{$var}pt {
+            font-size: #{$var} + 'pt';
+			// @media (max-width: $max-width) {
+			// 	font-size: #{$var - 2} + 'pt';
+			// }
+        }
+		&.ctn-#{$var}px {
+            font-size: #{$var} + 'px';
+			// @media (max-width: $max-width) {
+			// 	font-size: #{$var - 2} + 'px';
+			// }
+        }
+    }
+	&.ctn-upp {
+		text-transform: uppercase;
+	}
+	&.ctn-normal {
+		text-transform: normal;
+	}
+	&.ctn-center {
+		text-align: center;
+	}
+	&.ctn-sek-color {
+		color: $grey;
+		a {
+			color: $grey;
+			&:hover {
+				color: $black;
+			}
+		}
+	}
+	&.ctn-pri-color {
+		color: $light-grey;
+		a {
+			color: $grey;
+			&:hover {
+				color: $black;
+			}
+		}
+	}
+	&.ctn-min-color {
+		color: $black;
+		a {
+			color: $black;
+		}
+	}
+	&.ctn-link-color {
+		color: $black;
+		a {
+			color: $black;
+		}
+	}
+	&.ctn-white-color {
+		color: #fff;
+	}
+	&.ctn-init-color {
+		color: $black;
+	}
+	&.ctn-err-color {
+		color: $txt-alert;
+	}
+	&.ctn-line {
+		line-height: 1.5;
+	}
+	&.ctn-small-line {
+		line-height: 1.3;
+	}
+	&.ctn-thin {
+		font-weight: 500;
+	}
+	&.ctn-center {
+		text-align: center;
+	}
+	&.ctn-left {
+		text-align: left;
+	}
+	&.ctn-right {
+		text-align: right;
+	}
+}
