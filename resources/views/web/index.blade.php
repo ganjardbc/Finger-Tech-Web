@@ -51,13 +51,13 @@
                 <div class="width width-70 width-mobile width-center">
                     <div>
                         <div style="margin-bottom: 15px;">
-                            <h2 class="ctn-font ctn-32pt ctn-white-color ctn-font-primary-semibold">
-                                Reliable IT <br> Solution Partner
+                            <h2 class="ctn-font ctn-26pt ctn-white-color ctn-font-primary-semibold">
+                                IT Solution and Services <br> #ThinkFuture
                             </h2>
                         </div>
                         <div>
                             <p class="ctn-font ctn-14pt ctn-white-color ctn-line ctn-font-sekunder-thin">
-                                We always build trust from the customers with pay attention to quality of our service, product, and extraordinary works.
+                            We always come up with ideas and innovations to provide solutions in technology for customers.
                             </p>
                         </div>
                         <div class="display-flex">
@@ -83,7 +83,7 @@
                         OUR SERVICES
                     </h1>
                     <p class="ctn-font ctn-14pt ctn-min-color ctn-line ctn-center ctn-font-sekunder-thin">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+                        Over the years we have helped many clients building websites, mobile application, and providing IT Support Maintenance.
                     </p>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                         OUR PORTOFOLIOS
                     </h1>
                     <p class="ctn-font ctn-14pt ctn-min-color ctn-line ctn-center ctn-font-sekunder-thin">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+                        We have delivered needs and answered their problems with the solutions we provide. The digital solutions we have made.
                     </p>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                             OUR PRODUCTS
                         </h1>
                         <p class="ctn-font ctn-14pt ctn-white-color ctn-line ctn-center ctn-font-sekunder-thin">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+                            We have delivered needs and answered their problems with the solutions we provide. The digital solutions we have made.
                         </p>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                         OUR CLIENTS
                     </h2>
                     <p class="ctn-font ctn-14pt ctn-min-color ctn-line ctn-center ctn-font-sekunder-thin">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+                        We are very happy to have helped so many companies and built excellent partnerships with them.
                     </p>
                 </div>
             </div>
@@ -210,11 +210,11 @@
                     <h2 
                         class="ctn-font ctn-24pt ctn-min-color ctn-font-primary-semibold ctn-center"
                         style="margin-bottom: 15px;">
-                        OUR TESTIMONIALS
+                        GOOD THING CLIENT SAYS
                     </h2>
-                    <p class="ctn-font ctn-14pt ctn-min-color ctn-line ctn-center ctn-font-sekunder-thin">
+                    <!-- <p class="ctn-font ctn-14pt ctn-min-color ctn-line ctn-center ctn-font-sekunder-thin">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <div class="main-container-medium display-flex left display-mobile">
